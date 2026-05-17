@@ -1,0 +1,19 @@
+.app {
+    min-height: 100vh;
+}
+
+.header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #1e2130;
+    background: #0f1117;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.main {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}

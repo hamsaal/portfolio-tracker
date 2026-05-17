@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'portfolio',  # ← this must be here
+    'devices',
+    'jobs'
 ]
 
 MIDDLEWARE = [

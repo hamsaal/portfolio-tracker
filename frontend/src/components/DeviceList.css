@@ -1,0 +1,67 @@
+.panel {
+    background: #1a1d2e;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #1e2130;
+}
+
+.device-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.device-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #0f1117;
+    border-radius: 8px;
+    border: 1px solid #1e2130;
+}
+
+.device-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.device-name {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.device-type {
+    font-size: 0.75rem;
+    color: #606580;
+    text-transform: uppercase;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.status-online {
+    background: #0d3320;
+    color: #4ade80;
+}
+
+.status-offline {
+    background: #2a1a1a;
+    color: #f87171;
+}
+
+.status-printing {
+    background: #1a2a3a;
+    color: #60a5fa;
+}
+
+.status-error {
+    background: #3a1a1a;
+    color: #fb923c;
+}
