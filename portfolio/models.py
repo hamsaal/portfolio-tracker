@@ -21,7 +21,7 @@ class Transaction(models.Model):
         ('sell','Sell')
     ]
 
-    asset = models.ForeignKey(Asset,on_delete=models.CASCADE,related_name='transations')
+    asset = models.ForeignKey(Asset,on_delete=models.PROTECT,related_name='transations')
     tx_type = models.CharField(max_length= 4 , choices=TRANSACTION_TYPE);
     quantity = models.DecimalField(max_digits=15,decimal_places=6);
     price_per_unit = models.DecimalField(max_digits=15, decimal_places=6);
