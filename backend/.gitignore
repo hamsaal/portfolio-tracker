@@ -3,8 +3,6 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python
 
 # Django
 *.log
@@ -12,15 +10,8 @@ db.sqlite3
 media/
 staticfiles/
 
-# Environment variables — never commit this
+# Environment
 .env
-.env.local
-.env.production
-
-
-# IDEs
-.vscode/
-.idea/
 
 # OS
 .DS_Store
